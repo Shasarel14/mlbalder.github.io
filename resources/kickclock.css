@@ -1,0 +1,36 @@
+#clock{
+	height:1000px;
+	width:1000px;
+	cursor:pointer;
+	background-image:url(./clock1.png);
+}
+#img1,#img2,#img3{
+	position: absolute;
+	transition-duration:0.5s;
+}
+
+#img1{
+	position: absolute;
+    top: 78px;
+    left: 240px;
+	z-index: 50;
+    transform-origin: 258px 450px;
+
+}
+
+#img2{
+	top:50px;
+	left:340px;
+	z-index:2;
+	transform-origin: 154px 450px;
+}
+#img3{
+	top:50px;
+	left:440px;
+	z-index:3;
+	transform-origin: 80px 420px;
+}
+.bounce{
+	z-index:-10;
+	transition-duration:0.1s;
+}
