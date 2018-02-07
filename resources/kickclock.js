@@ -2,7 +2,7 @@ var kick = false;
 var civ = [];
 function dateToDeg(){
 	var ctime = new Date();
-	return({h:unitToDeg(ctime.getHours(), 24),m:unitToDeg(min=ctime.getMinutes(), 60),s:unitToDeg(sec=ctime.getSeconds(), 60)});
+	return({h:unitToDeg(ctime.getHours(), 12),m:unitToDeg(min=ctime.getMinutes(), 60),s:unitToDeg(sec=ctime.getSeconds(), 60)});
 }
 function unitToDeg(current, max){
 	return 360*current/max;
