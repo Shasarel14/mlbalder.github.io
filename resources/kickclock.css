@@ -3,6 +3,8 @@
 	width:1000px;
 	cursor:pointer;
 	background-image:url(./clock1.png);
+	transform:scale(0.8);
+	margin: auto;
 }
 #img1,#img2,#img3{
 	position: absolute;
