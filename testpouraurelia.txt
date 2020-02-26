@@ -1,1 +1,4 @@
-Aurelia n'a pas édité ce fichier
+Aurelia n'a pas encore édité ce fichier
+
+
+Balder a aussi édité ce fichier pendant que tu le faisait
